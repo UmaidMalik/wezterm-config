@@ -170,20 +170,22 @@
     </details>
 
   - <details>
-    <summary>JetBrainsMono Nerd Font</summary>
+    <summary>FiraCode Nerd Font</summary>
 
-    Install with Homebrew (Macos)
+    Windows:
 
-    ```sh
-    brew tap homebrew/cask-fonts
-    brew install font-jetbrains-mono-nerd-font
-    ```
+    [Download](https://www.nerdfonts.com/font-downloads)
 
-    Install with Scoop (Windows)
+    Linux:
 
     ```sh
-    scoop bucket add nerd-fonts
-    scoop install JetBrainsMono-NF
+    mkdir -p ~/.local/share/fonts
+    cd ~/.local/share/fonts
+    wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraCode.zip
+    unzip FiraCode.zip -d FiraCode
+    rm FiraCode.zip
+    fc-cache -fv
+    fc-list | grep "FiraCode"
     ```
 
     > More Info:
