@@ -56,7 +56,7 @@ local colorscheme = {
       '#B4009E', -- magenta/purple
       '#61D6D6', -- cyan
       '#F2F2F2', -- white
-      '#00F7DA', -- bright cyan
+      --'#00F7DA', -- bright cyan
    },
    tab_bar = {
       background = 'rgba(0, 0, 0, 0.4)',
